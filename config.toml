@@ -1,9 +1,11 @@
 baseURL = 'https://abhisundu.github.io/'
 languageCode = 'en-us'
-title = 'Abhi Sundu Gamedev Blog'
+title = 'abhi sundu gamedev blog'
 theme = "holy"
 publishDir = "docs"
 copyright = "Copyright © 2022, Abhi Sundu, all rights reserved"
+[params]
+    copyright = "© 2022 Abhi Sundu"
 [menu]
 
     [[menu.main]]
