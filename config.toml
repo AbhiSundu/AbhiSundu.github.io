@@ -3,3 +3,20 @@ languageCode = 'en-us'
 title = 'Abhi Sundu Gamedev Blog'
 theme = "holy"
 publishDir = "docs"
+copyright = "Copyright © 2022, Abhi Sundu, all rights reserved"
+[menu]
+
+    [[menu.main]]
+        identifier = 'games'
+        name = 'games'
+        url = '/games/'
+
+    [[menu.main]]
+        identifier = 'AboutMe'
+        name = 'about me'
+        url = '/about-me/'
+
+    [[menu.main]]
+        identifier = 'blog'
+        name = 'blog'
+        url = '/posts/'
