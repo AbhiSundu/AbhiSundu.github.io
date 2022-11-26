@@ -3,7 +3,7 @@ title: "Selling my first Steam Game: PUTRID SHOT ULTRA Postmortem"
 date: 2022-11-19T11:07:54-05:00
 draft: false
 ---
-I released my first commercial game, [PUTRID SHOT ULTRA](https://store.steampowered.com/app/2053360/PUTRID_SHOT_ULTRA/), on 11/7/22. I spent 6 months working on this game in my free time for a total of about ~200 hours of work. In this post, I'll discuss the steam results of my game, my process, and some analysis on why my game performed the way it did.
+I released my first commercial steam game, [PUTRID SHOT ULTRA](https://store.steampowered.com/app/2053360/PUTRID_SHOT_ULTRA/), on November 7 2022. I spent 6 months working on this game in my free time for a total of about ~200 hours of work. In this post, I'll discuss the steam results of my game, my process, and some analysis on why my game performed the way it did.
 
 ## Summary of Results
 My game sold 285 copies in 3 weeks following its release.
@@ -54,24 +54,57 @@ The game is very easy to "break". There are quite a few spells that sound cool i
 
 In a later patch, I nerfed some of these more egregious strategies, but the damage was "done" so to speak, as many of my initial players had lost interest in the game due to how easy it was.
 
-#### Amount of Content
+Some players even called out these broken strategies in demo feedback, but I wrote that off as those players just being particularly skilled, rather than recognizing how easy some of these strategies were to execute. In the future, I think I'll try to get more of my friends to playtest the game.
+
+#### Lack of replay value
 Even for 3 dollars, the game launched with less content than people had probably expected. If the game were properly balanced, I'd expect most people to beat it within 10 runs. Each run ranges from 30 minutes to 1 hour, so this is a solid 5-10 hours of content.
 
-However, due to the aforementioned balance issues, many players beat the game on their first run. In response to this, I added a number of "challenge modes" (similar to the "Heat" gauge in hades) that drastically increase the challenge of the game. I also added "endless mode". With these updates, I think the game is well-worth the 3 dollar pricetag, but on release I can see how some players would find it light on content.
+However, due to the aforementioned balance issues, many players beat the game on their first run. The game has quite a few starting loadouts, but this didn't seem like enough of a reason to replay the game for many players. In response to this, I added a number of "challenge modes" (similar to the "Heat" gauge in hades) that drastically increase the challenge of the game. I also added "endless mode". With these updates, I think the game is well-worth the 3 dollar pricetag, but on release I can see how some players would find it light on replay value.
 
 #### Shallow progression
 I think the game's core mechanic of "Every N shots, do something cool" is great. However, many of the subsequent upgrades / progressions are very boring. Once you pick up your core set of spells, the upgrades are largely just "+2 ice damage", "+5 fire damage", "-15% reload speed" etc. The youtubers that played the game seemed reasonably engaged by the magic spells, but seemed to just gloss over the upgrade system becuase it was so boring.
 
 #### No amount of influencer traffic can out-market your game's quality
-If you look at my results, you'd think "hey that's not bad for no marketing!". Then you see that I had multiple youtubers with 100k-500k subscribers cover the game and suddenly you're like: What happened? I think it's clear that my game just isn't that great.
+If you look at my results, you might think "that's not too bad for a game without good marketing!". Then you see that I had multiple youtubers with 100k-500k subscribers cover the game and suddenly you're like: What happened? I think it's clear that my game just isn't that great.
 
 My game had far more chances to succeed than it probably deserved (many games with 0 influencer traffic sell better on day 1 than my game did on 3 weeks with influencers covering it). It feels like I wasted an opportunity that could have been better-used by a much better game. I won't vent about this too much more, I just want to say: Imagine if I had made a great game! The amount of influencer traffic I received would have rocketed my game to the moon if my game were better.
 
 ### What went well
+#### Pre-release process
+Despite my lackluster sales results, I think my process for pre-release marketing is solid, and I would definitely follow it again. To summarize, my pre-release marketing was:
+* Publish steam storepage with demo
+* Publish browser-based demo on itch to collect early feedback
+* Post to related subreddits
+* Participate in festivals (Steam Next fest, Dreamhack beyond)
+* Email influencers right before release
 
-TODO fill this out
+This is the same high-value low-effort process that other, more successful solo devs followed (20 Minutes till Dawn and Pawnbarian are two games with very similar pre-release marketing strategies). As I mentioned earlier, I think that a good process only works if your game is also very good.
+#### I improved my engine a ton
+I made this game using the Love2D framework. This is the 4th game I've shipped with Love2D, but because this was a steam game I added a ton of re-usable features to my engine like game options, remappable controls, saving/loading, etc. In general it feels like the wrappers I've written around Love2D are super easy to use. I spun up a small deckbuilder game during the last month before releasing my steam game in only 2 weeks thanks to how easy my tools are to use. I really like Love2D and I think I'll continue to use it for all future 2D projects (though I've been eyeing Godot for 3D recently).
+#### I developed more "Emotional poise"
+I used to get really anxious before game releases, but over the past year and a half I've released many games. With every game I release, I get better at handling the "Post-release jitters" that come with releasing something into the wild.
 
-also talk about play time, niche game, etc
+With this steam release, I was still quite anxious on release day but the anxiety faded pretty quickly when I saw that the game didn't launch with any huge bugs / crashes. I think I'll be even less anxious for my next steam game, whenever that is.
 
-### Closing thoughts
-talk about how you don't think the game is bad, but rather niche 
+In general, I think I've done a really good job of slowly growing out my audience and scope over the past two years, and this commercial game is a nice capstone to my progress.
+
+#### Some players really love the game
+The median playtime fluctuates between 45-55 minutes, which is apparently below the average on steam. However, if we look at the following chart:
+<INSERT PLAYERTIME CHART>
+
+we can see that while most players seem to bounce off the game after 1-2 runs, there are a small group of players that seem *obsessed* with the game. I'm really happy that I could make a game that resonated this much with some players.
+#### Miscellaneous things I'm proud of:
+* I'm really proud of how the [soundtrack](https://soundcloud.com/abhisundu/sets/putrid-shot-ultra-ost) came out. I'm not a professional composer or anything, but I've been composing on and off for the last 6 years and I think this game's OST is my best work so far.
+* After the 3 updates I made post-launch, I think the game is a great deal for 3 dollars. There's a solid amount of content for the money in version 1.4 with the different loadouts, challenge modes, and endless mode.
+* The boss battles came out great. I know many players breezed through the bosses due to some of the more broken builds in the game, but the 3 main bosses and each of the minibosses all have really fun and fair attack patterns.
+
+## Closing thoughts
+I know I did the classic self-flagellation of "my game must be bad because it sold badly" thing that a lot of post-mortems do, so I just want to say: I wouldn't have released my game if I thought it was bad. I think PUTRID SHOT ULTRA is a solid game. I think, given the right loadout, the game can be really fun (if any of you give it a try, "close combat" builds are my favorite).
+
+However, I underestimated how difficult it would be to balance the player's power curve in a "long-run" roguelike like this. This led to the game being boring for some players due to some builds completely trivializing what should have been a very challenging, engaging end-game. I have a newfound respect for all the expertly-tuned roguelikes that always feel satisfying, even when you 'break' them.
+
+I also think that my game is quite niche, even at its best (given the playtime chart in the previous section), which is something I expected. It's nice to see some players fall in love with the game, even if they're not in the majority.
+
+I'm very thankful to the influencers who covered my game. It feels like my game sold better than it deserved thanks to the influencer traffic. I'm excited to keep improving; it feels like if I follow the same process but develop an even better game, I'll see significantly better results.
+
+My game is far from perfect, but I'm proud of what I've made. I'm happy to answer any questions you all have.
