@@ -74,4 +74,4 @@ TODO fill this out
 also talk about play time, niche game, etc
 
 ### Closing thoughts
-talk about how you don't think the game is bad, but rather niche
+talk about how you don't think the game is bad, but rather niche 
