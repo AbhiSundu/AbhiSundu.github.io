@@ -25,7 +25,7 @@ A number of smaller youtubers made videos on the game as well, including [RogueA
 
 The game launched with around 620 wishlists (I'll discuss this in the next section). The game currently has 15 positive reviews and a median playtime of around 47 minutes (this time seems to fluctuate, the highest it went was around 55 minutes and it started at around 30 minutes).
 ## Pre-release marketing
-I released my steam page on 06/20/2022, meaning I had around 4-5 months to build wishlists.
+I released my steam page on June 20, 2022, meaning I had around 4-5 months to build wishlists.
 Here's my wishlist graph annotated with each of my marketing activities:
 ![wishlistgraph](https://i.imgur.com/1fZA4GV.png)
 
