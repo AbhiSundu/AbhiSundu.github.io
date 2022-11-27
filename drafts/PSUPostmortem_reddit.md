@@ -105,4 +105,4 @@ I'm very thankful to the influencers who covered my game. It feels like my game 
 
 My game is far from perfect, but I'm proud of what I've made. I'm happy to answer any questions you all have.
 
-(I made a longer, more-detailed version of this post [here](TODO link to blog) if anyone's interested)
+(I made a longer, more-detailed version of this post [here](https://abhisundu.com/posts/psupostmortem/) if anyone's interested)
