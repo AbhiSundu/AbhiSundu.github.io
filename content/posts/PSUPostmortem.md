@@ -112,7 +112,7 @@ we can see that while most players seem to bounce off the game after 1-2 runs, t
 * After the 3 updates I made post-launch, I think the game is a great deal for 3 dollars. There's a solid amount of content for the money in version 1.4 with the different loadouts, challenge modes, and endless mode.
 * The boss battles came out great. I know many players breezed through the bosses due to some of the more broken builds in the game, but the 3 main bosses and each of the minibosses all have really fun and fair attack patterns.
 ## Closing thoughts
-I don't want to be overly critical and say "my game is bad because it sold badly": I wouldn't have released my game if I thought it was bad. I think PUTRID SHOT ULTRA is a good game. And after the updates I made, I think the remaining players really like it.
+I don't want to be overly critical and say "my game is bad because it didn't sell well": I wouldn't have released my game if I thought it was bad. I think PUTRID SHOT ULTRA is a good game. And after the updates I made, I think the remaining players really like it.
 
 However, I underestimated how difficult it would be to balance the player's power curve in a "long-run" roguelike like this. This led to the game being boring for some players due to some builds completely trivializing what should have been a very challenging, engaging end-game. I have a newfound respect for all the expertly-tuned roguelikes that always feel satisfying, even when you 'break' them.
 
