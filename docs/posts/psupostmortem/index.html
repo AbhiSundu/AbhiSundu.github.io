@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>Results from my first Steam Game: PUTRID SHOT ULTRA Postmortem - abhi sundu gamedev blog</title>
+
+    
+    
+    <meta name="description" content="I released my first commercial steam game, PUTRID SHOT ULTRA, on November 7 2022. I spent 6 months working on this game in my free time for a total of about ~200 hours of work. In this post, I&rsquo;ll discuss the results of my game, my process, and some analysis on why my game performed the way it did.
+Summary of Results My game sold 285 copies in 3 weeks following its release." />
+    <meta name="author" content="" />
+    
+
+    <link href="https://unpkg.com/@master/normal.css" rel="stylesheet">
+    <script src="https://unpkg.com/@master/style@1.5.0"></script>
+    <script src="https://unpkg.com/@master/styles@1.13.0"></script>
+    <script src="https://unpkg.com/master-styles-group"></script>
+    <script src="https://unpkg.com/themes.js"></script>
+    <script>window.themes = window.themes || new window.Themes()</script></head>
+<body class="bg:fade-84@dark font:fade-16@dark">
+    <nav class="w:full h:90 fixed bg:fade-84/.95@dark bg:white z:1000">
+    <div class="
+        h:full
+        w:full
+        max-w:1200
+        mx:auto
+        px:32
+        d:flex
+        align-items:center
+    ">
+        <div>
+            <a href="/" class="mr-3 font:extralight">abhi sundu gamedev blog</a>
+        </div>
+
+        <div class="ml:auto">
+            
+            
+            
+            
+            <a class="
+                font:semibold
+                font:fade
+                font:fade-10:hover
+                font:fade-30.active
+                px:8
+                transition:150ms;ease-in
+                
+            " href="/about-me/" title="">about me</a>
+            
+            
+            <a class="
+                font:semibold
+                font:fade
+                font:fade-10:hover
+                font:fade-30.active
+                px:8
+                transition:150ms;ease-in
+                
+            " href="/posts/" title="">blog</a>
+            
+            
+            <a class="
+                font:semibold
+                font:fade
+                font:fade-10:hover
+                font:fade-30.active
+                px:8
+                transition:150ms;ease-in
+                
+            " href="/games/" title="">games</a>
+            
+        </div>
+    </div>
+</nav>
+<div class="d:flex flex:column@<=sm pt:90 px:24 jc:center gap:44 word-break:break-word">
+        <div class="max-w:700 w:full box:content-box">
+<article class="box:border-box pt:32">
+    <header class="mb:32">
+        <div class="font:40 font:extrabold">Results from my first Steam Game: PUTRID SHOT ULTRA Postmortem</div>
+        <div class="mt:16 f:fade-60">
+            <time>Nov 27, 2022</time>
+            </div>
+    </header><div class="
+    _:where(a):hover{text-decoration-color:fade}
+    _:where(a){text-decoration:2;underline;fade-10;_text-decoration-color:fade-70@dark}
+    _:where(blockquote){bl:5;solid;fade-76/.1;_bl:5;solid;fade-34/.1@dark}
+    _:where(code){font:90%;_v:middle}
+    _:where(code:not(.highlight_*,pre_*)){p:2;6;_r:4}
+    _:where(del){text-decoration:1;line-through;fade-68;_text-decoration-color:red-64@dark}
+    _:where(figcaption){text:14;_p:10;20;0;_width:fit;_mx:auto;_font:fade-56;_font:fade-57@dark}
+    _:where(h1){font:40;_font:extrabold}
+    _:where(h1,h2,h3)+:where(h1,h2,h3){mt:.5em}
+    _:where(h1,h2,h3,h4,h5,h6){mt:2em}
+    _:where(h2){mb:1em;_font:32}
+    _:where(h3){font:24}
+    _:where(h4){font:20}
+    _:where(h5){font:16}
+    _:where(h6){font:14}
+    _:where(li)::marker{font:fade-44;_font:fade-68@dark}
+    _:where(li){pl:.375em}
+    _:where(mark){text-decoration:1;underline;#fce016;_bg:transparent;_text-decoration-color:rgb(252;224;22/.5)@dark}
+    _:where(p,li){font:fade-76;_font:16;_line-height:1.65;_font:fade-34@dark}
+    _:where(p,pre,blockquote,figure,ul,ol,table){my:1.125em}
+    >:first-child{mt:0!}
+    _:where(pre){p:20;_r:8;_overflow:auto}
+    _:where(pre,code:not(.highlight_*)){bg:fade-2;_bg:fade-92!@dark}
+    _:where(strong,b,a,code:not(.highlight_*),mark,del){font:fade-92;_font:fade-12@dark}
+    _:where(table){width:full;_border-spacing:0}
+    _:where(td){v:baseline}
+    _:where(td,th):first-child{pl:0}
+    _:where(td,th):last-child{pr:0}
+    _:where(td,th){bb:1;solid;fade-92/.06;_p:6;_b:fade-4/.04@dark}
+    _:where(th){font:fade-78;_font:14;_text:left;_font:fade-12@dark}
+    _:where(th,p_code,li_code,a,mark){font:semibold;_font:medium@dark}
+    _:where(ul){list-style-type:disc}
+    _:where(ul,ol,blockquote){pl:1.5em}
+    _:where(video,img){max-width:full}
+    _:where(a,mark){text-underline-offset:3}
+"><p>I released my first commercial steam game, <a href="https://store.steampowered.com/app/2053360/PUTRID_SHOT_ULTRA/">PUTRID SHOT ULTRA</a>, on November 7 2022. I spent 6 months working on this game in my free time for a total of about ~200 hours of work. In this post, I&rsquo;ll discuss the results of my game, my process, and some analysis on why my game performed the way it did.</p>
+<h2 id="summary-of-results">Summary of Results</h2>
+<p>My game sold 285 copies in 3 weeks following its release.
+<img src="https://i.imgur.com/XretR2j.png" alt="results"></p>
+<p>First 3 weeks of sales:</p>
+<p><img src="https://i.imgur.com/KGntyWN.png" alt="sales_graph"></p>
+<p>The initial sales spike comes from wishlist conversion. From there, the game hit 10 reviews by day 3 of the release (I had 4 friends write reviews and received 6 &ldquo;organic&rdquo; reviews very early on). I saw a massive spike in Discovery Queue traffic after hitting 10 reviews (from ~2000 visits to 15000 visits per day). I did not notice a spike in sales due to the discovery queue traffic.</p>
+<p>A handful of large youtubers made videos on the game:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=hUwIxWYF3X4">Wanderbots</a></li>
+<li><a href="https://www.youtube.com/watch?v=64MQ3ALXQio">Retromation</a></li>
+<li><a href="https://www.youtube.com/watch?v=6vu_DlMV3OE">UltraC</a></li>
+</ul>
+<p>This caused the second &ldquo;spike&rdquo; in sales in the graph above. The larger channels that played it seemed to enjoy the game enough to finish a run, but didn&rsquo;t seem to <em>love</em> the game due to some critical balance issues.
+A number of smaller youtubers made videos on the game as well, including <a href="https://www.youtube.com/@rogueabyss">RogueAbyss</a>, <a href="https://www.youtube.com/watch?v=IWHi9VRWr4Q">ParaDyme</a>, and <a href="https://www.youtube.com/watch?v=eTkhYLoughA">HauntedHusband</a>.</p>
+<p>The game launched with around 620 wishlists (I&rsquo;ll discuss this in the next section). The game currently has 15 positive reviews and a median playtime of around 47 minutes (this time seems to fluctuate, the highest it went was around 55 minutes and it started at around 30 minutes).</p>
+<h2 id="pre-release-marketing">Pre-release marketing</h2>
+<p>I released my steam page on 06/20/2022, meaning I had around 4-5 months to build wishlists.
+Here&rsquo;s my wishlist graph annotated with each of my marketing activities:
+<img src="https://i.imgur.com/1fZA4GV.png" alt="wishlistgraph"></p>
+<p>The subreddits I posted to were /r/WebGames, /r/IndieGames, /r/games (on indie sunday), /r/love2d, and /r/playmygame.</p>
+<p>My main takeaways:</p>
+<ol>
+<li>Steam next fest had the best &ldquo;bang for my buck&rdquo;, roughly 300 wishlists, zero effort on my part outside of &lsquo;signing&rsquo; up for the festival.</li>
+<li>Reddit posts were hit or miss, medium-effort, and usually got me anywhere from 10-30 wishlists</li>
+<li>Crazygames was easy to submit to and got me ~50 wishlists</li>
+</ol>
+<p>My twitter had a very small following before this game&rsquo;s release (~150 followers). I had a couple decent tweets (150-200 likes) but those didn&rsquo;t seem to affect wishlists/sales in any noticeable way. Releasing the game did get me about 100 additional twitter followers, so that was neat.</p>
+<p>My steam capsule was done by the amazing <a href="https://www.artstation.com/gholz">Guilherme Holz</a>. He has some good steam capsule experience and was really easy to work with.</p>
+<h2 id="post-release-marketing">Post-release marketing</h2>
+<p>I emailed around 20 youtubers with free steam keys to the game. <a href="https://i.imgur.com/3jgEIhW.png">Here&rsquo;s the email template I used.</a>
+I created the list of youtubers to email using the strategies outlined in <a href="https://www.youtube.com/watch?v=ukw_vTFjSDo">this video</a>. As an aside, I highly recommend <a href="https://www.youtube.com/@AuroDev">Aurodev&rsquo;s</a> channel, I followed a lot of his tips for setting up my steam page, creating builds in steamworks, coming up with an influencer email template etc.</p>
+<p>I didn&rsquo;t have the time nor patience to set up an official presskit, so I just created an <a href="https://imgur.com/a/prv0qRh">&ldquo;unofficial&rdquo; presskit</a> on imgur with relevant artwork. This seemed sufficient for all the influencers that eventually made videos of the game.</p>
+<p>As I mentioned earlier, 3 large youtubers and a number of small youtubers made videos on the game.</p>
+<h2 id="analysis">Analysis</h2>
+<p>In this section, I&rsquo;ll outline my thoughts on my results and my process.</p>
+<h2 id="what-went-poorly">What went poorly</h2>
+<h3 id="game-balance">Game Balance</h3>
+<p>The game is very easy to &ldquo;break&rdquo;. There are quite a few spells that sound cool in theory, but utterly steamroll the entire game in practice. Without fail, every influencer that played the game was able to identify these strategies and basically &lsquo;autopilot&rsquo; the entire final 60% of the game. The game is meant to be a challenging dodge-based shoot-em-up, but in many influencer videos, it became an idle game due to these strategies.</p>
+<p>In a later patch, I nerfed some of these more egregious strategies, but the damage was &ldquo;done&rdquo; so to speak, as many of my initial players had lost interest in the game due to how easy it was.</p>
+<p>Some players even called out these broken strategies in demo feedback, but I wrote that off as those players just being particularly skilled, rather than recognizing how easy some of these strategies were to execute. In the future, I think I&rsquo;ll try to get more of my friends to playtest the game, and I&rsquo;ll keep an eye out for this type of feedback.</p>
+<h3 id="lack-of-replay-value">Lack of replay value</h3>
+<p>Even for 3 dollars, the game launched with less content than people had probably expected. If the game were properly balanced, I&rsquo;d expect most people to beat it within 10 runs. Each run ranges from 30 minutes to 1 hour, so this is a solid 5-10 hours of content.</p>
+<p>However, due to the aforementioned balance issues, many players beat the game on their first run. The game has quite a few starting loadouts, but this didn&rsquo;t seem like enough of a reason to replay the game for many players. In response to this, I added a number of &ldquo;challenge modes&rdquo; (similar to the &ldquo;Heat&rdquo; gauge in hades) that drastically increase the challenge of the game. I also added &ldquo;endless mode&rdquo;. With these updates, I think the game is well-worth the 3 dollar pricetag, but on release I can see how some players would find it light on replay value.</p>
+<h3 id="shallow-progression">Shallow progression</h3>
+<p>I think the game&rsquo;s core mechanic of &ldquo;Every N shots, do something cool&rdquo; is great. However, many of the subsequent upgrades / progressions are very boring. Once you pick up your core set of spells, the upgrades are largely just &ldquo;+2 ice damage&rdquo;, &ldquo;+5 fire damage&rdquo;, &ldquo;-15% reload speed&rdquo; etc. The youtubers that played the game seemed reasonably engaged by the magic spells, but seemed to just gloss over the upgrade system becuase it was so boring.</p>
+<h3 id="no-amount-of-influencer-traffic-can-out-market-your-games-quality">No amount of influencer traffic can out-market your game&rsquo;s quality</h3>
+<p>If you look at my results, you might think &ldquo;that&rsquo;s not too bad for a game without good marketing!&rdquo;. Then you see that I had multiple youtubers with 100k-500k subscribers cover the game and suddenly you&rsquo;re like: What happened? I think it&rsquo;s clear that my game just doesn&rsquo;t stand out among the crowd. I also think the balance issues mentioned earlier contibuted to youtubers liking the game less.</p>
+<p>It does feel humbling to have this much influencer traffic and see such tepid results. I won&rsquo;t vent about this too much more, I just want to say: Imagine if I had made a better game! With the amount of influencer traffic I received, it may have rocketed my game to the moon if my game were better.</p>
+<h3 id="the-games-visuals-are-polarizing">The game&rsquo;s visuals are polarizing</h3>
+<p>The game&rsquo;s art is very simple, maybe to a fault. I personally like the art style, but I feel that this was one of the reasons my &ldquo;post-10-review&rdquo; steam impression boost didn&rsquo;t convert very well into increased sales. I also saw a few comments on youtube videos talking about how ugly the game looked.</p>
+<h2 id="what-went-well">What went well</h2>
+<h3 id="pre-release-process">Pre-release process</h3>
+<p>Despite my lackluster sales results, I think my process for pre-release marketing is solid, and I would definitely follow it again. To summarize, my pre-release marketing was:</p>
+<ul>
+<li>Publish steam storepage with demo</li>
+<li>Publish browser-based demo on itch to collect early feedback (crosspost web demo to /r/webgames and other web portals)</li>
+<li>Post to related subreddits</li>
+<li>Participate in festivals (Steam Next fest, Dreamhack beyond)</li>
+<li>Email influencers right before release</li>
+</ul>
+<p>In particular, having a web-based demo allowed me to amass a ton of feedback via reddit comments and itch comments. I found a few &lsquo;silent&rsquo; issues (i.e bugs that caused controls clunkiness) through this feedback.</p>
+<p>This is the same high-value low-effort process that other, more successful solo devs have followed (I believe &ldquo;20 Minutes till Dawn&rdquo; and &ldquo;Pawnbarian&rdquo; followed very similar pre-release marketing strategies). As I mentioned earlier, I think that a good process is just a multiplier on how good your game is.</p>
+<h3 id="i-improved-my-engine-a-ton">I improved my engine a ton</h3>
+<p>Making a commercial game on steam really forces you to implement all those &ldquo;must-have&rdquo; QoL features that players come to expect in a commercial game (remappable controls, rich options menu, save/load, achievements, steam cloud, etc). I now have a bunch of re-usable modules for all of the above and more in my &ldquo;engine&rdquo; wrapped around Love2D.</p>
+<p>This is the 4th game I&rsquo;ve shipped with the Love2D framework and I really love it so far. I think I&rsquo;ll continue to use it for all future 2D projects (though I&rsquo;ve been eyeing Godot for 3D recently).</p>
+<h4 id="important-options-to-include-in-your-game">Important options to include in your game</h4>
+<p>The following options seem like <em>must-have</em> options for any game (Each of these options were personally requested by players and 100% of influencers recorded videos with some or all of these options enabled)</p>
+<ul>
+<li>Enable/disable screenshake</li>
+<li>Enable/disable screen flash VFX</li>
+<li>Enable/disable particles</li>
+<li>If your game has bright VFX, a &ldquo;dark mode&rdquo; to darken these FX</li>
+</ul>
+<h4 id="other-tools-i-used-that-i-recommend">Other tools I used that I recommend</h4>
+<ul>
+<li><a href="https://www.mapeditor.org/">Tiled Map editor</a></li>
+<li><a href="https://lmms.io/">LMMS for music</a></li>
+<li><a href="https://luasteam.readthedocs.io/en/stable/">luasteam for steam API</a></li>
+<li><a href="https://www.aseprite.org/">aseprite for all sprites / animations</a></li>
+</ul>
+<h3 id="i-developed-more-emotional-poise">I developed more &ldquo;Emotional poise&rdquo;</h3>
+<p>I used to get really anxious before game releases, but over the past year and a half I&rsquo;ve released many games, each with their own anxieties and issues. With every game I release, I get better at handling the &ldquo;Post-release jitters&rdquo; that come with releasing something into the wild.</p>
+<p>With this steam release, I was still quite anxious on release day but the anxiety faded pretty quickly when I saw that the game didn&rsquo;t launch with any huge bugs / crashes. I think I&rsquo;ll be even less anxious for my next steam game, whenever that is.</p>
+<p>In general, I think I&rsquo;ve done a really good job of slowly growing out my audience and scope over the past two years, and this commercial game is a nice capstone to my progress.</p>
+<h3 id="some-players-really-love-the-game">Some players really love the game</h3>
+<p>The median playtime fluctuates between 45-55 minutes, which is apparently below the average on steam. However, if we look at the following chart:
+<img src="https://i.imgur.com/wM37NMw.png" alt="playtime"></p>
+<p>we can see that while most players seem to bounce off the game after 1-2 runs, there are a small group of players that seem to <em>really love</em> the game. I&rsquo;m really happy that I could make a game that resonated this much with some players.</p>
+<h3 id="miscellaneous-things-im-proud-of">Miscellaneous things I&rsquo;m proud of:</h3>
+<ul>
+<li>I&rsquo;m really proud of how the <a href="https://soundcloud.com/abhisundu/sets/putrid-shot-ultra-ost">soundtrack</a> (warning, autoplay in link) came out. I&rsquo;m not a professional composer or anything, but I&rsquo;ve been composing on and off for the last 6 years and I think this game&rsquo;s OST is my best work so far.</li>
+<li>After the 3 updates I made post-launch, I think the game is a great deal for 3 dollars. There&rsquo;s a solid amount of content for the money in version 1.4 with the different loadouts, challenge modes, and endless mode.</li>
+<li>The boss battles came out great. I know many players breezed through the bosses due to some of the more broken builds in the game, but the 3 main bosses and each of the minibosses all have really fun and fair attack patterns.</li>
+</ul>
+<h2 id="closing-thoughts">Closing thoughts</h2>
+<p>I don&rsquo;t want to be overly critical and say &ldquo;my game is bad because it sold badly&rdquo;: I wouldn&rsquo;t have released my game if I thought it was bad. I think PUTRID SHOT ULTRA is a good game. And after the updates I made, I think the remaining players really like it.</p>
+<p>However, I underestimated how difficult it would be to balance the player&rsquo;s power curve in a &ldquo;long-run&rdquo; roguelike like this. This led to the game being boring for some players due to some builds completely trivializing what should have been a very challenging, engaging end-game. I have a newfound respect for all the expertly-tuned roguelikes that always feel satisfying, even when you &lsquo;break&rsquo; them.</p>
+<p>I also think that, even at its best, my game is pretty niche (given the playtime chart in the previous section). That said, it&rsquo;s nice to see some players fall in love with the game, even if they&rsquo;re not in the majority. I think I saw a few players in the steam reviews clock upwards of 15 hours, which is really cool to see.</p>
+<p>I&rsquo;m very thankful to the influencers who covered my game. It feels like my game sold a bit better than it deserved thanks to the influencer traffic! I&rsquo;m excited to keep improving; it feels like if I follow the same process but develop an even better game, I may see significantly better results.</p>
+<p>My game is far from perfect, but I&rsquo;m proud of what I&rsquo;ve made.</p>
+<p><strong>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-</strong></p>
+<p>If you want to be notified when I make posts like this, consider signing up for my <a href="https://mailchi.mp/fe0667f0520b/abhi-sundus-mailing-list">mailing list</a>.</p>
+</div></article>
+<footer class="py:24">
+    <div class="f:fade-30 f:14 mb:8">© 2022 Abhi Sundu</div>
+    <div class="f:fade-60 f:12">Theme <a class="f:bold" href="https://github.com/serkodev/holy" _target="_blank">Holy</a></div>
+</footer></div>
+    </div>
+    
+</body>
+
+</html>

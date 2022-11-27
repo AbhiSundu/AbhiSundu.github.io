@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Abhi Sundu Gamedev Blog</title>
+    <title>Categories on abhi sundu gamedev blog</title>
     <link>https://abhisundu.github.io/categories/</link>
-    <description>Recent content in Categories on Abhi Sundu Gamedev Blog</description>
+    <description>Recent content in Categories on abhi sundu gamedev blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright © 2022, Abhi Sundu, all rights reserved</copyright><atom:link href="https://abhisundu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2022, Abhi Sundu, all rights reserved </copyright><atom:link href="https://abhisundu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

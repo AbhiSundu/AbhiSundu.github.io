@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>awef on Abhi Sundu Gamedev Blog</title>
+    <title>awef on abhi sundu gamedev blog</title>
     <link>https://abhisundu.github.io/</link>
-    <description>Recent content in awef on Abhi Sundu Gamedev Blog</description>
+    <description>Recent content in awef on abhi sundu gamedev blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright © 2022, Abhi Sundu, all rights reserved</copyright>
+    <copyright>Copyright © 2022, Abhi Sundu, all rights reserved </copyright>
     <lastBuildDate>Sat, 19 Nov 2022 11:34:48 -0500</lastBuildDate><atom:link href="https://abhisundu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Results from my first Steam Game: PUTRID SHOT ULTRA Postmortem</title>
+      <link>https://abhisundu.github.io/posts/psupostmortem/</link>
+      <pubDate>Sun, 27 Nov 2022 10:13:21 -0500</pubDate>
+      
+      <guid>https://abhisundu.github.io/posts/psupostmortem/</guid>
+      <description>I released my first commercial steam game, PUTRID SHOT ULTRA, on November 7 2022. I spent 6 months working on this game in my free time for a total of about ~200 hours of work. In this post, I&amp;rsquo;ll discuss the results of my game, my process, and some analysis on why my game performed the way it did.
+Summary of Results My game sold 285 copies in 3 weeks following its release.</description>
+    </item>
+    
     <item>
       <title>About Me</title>
       <link>https://abhisundu.github.io/about-me/</link>
       <pubDate>Sat, 19 Nov 2022 11:33:11 -0500</pubDate>
       
       <guid>https://abhisundu.github.io/about-me/</guid>
-      <description>I make games sometimes I&amp;rsquo;ve been making games for about 6 years now as a hobby. Making games is not my fulltime job but just a hobby.</description>
+      <description>I&amp;rsquo;ve been making games for about 6 years now as a hobby. Making games is not my fulltime job but just a hobby. You can find all my games on my itch.io page. I&amp;rsquo;ve also posted games to Armorgames and Crazygames.</description>
     </item>
     
     <item>
@@ -23,16 +33,11 @@
       <pubDate>Sat, 19 Nov 2022 11:29:34 -0500</pubDate>
       
       <guid>https://abhisundu.github.io/games/</guid>
-      <description>Hello Bogba Telvisino games </description>
-    </item>
-    
-    <item>
-      <title>Testpost</title>
-      <link>https://abhisundu.github.io/posts/testpost/</link>
-      <pubDate>Sat, 19 Nov 2022 11:07:54 -0500</pubDate>
-      
-      <guid>https://abhisundu.github.io/posts/testpost/</guid>
-      <description>hello</description>
+      <description>The best place to find all my games is on my itch.io page.
+PUTRID SHOT ULTRA A chaotic roguelike shoot-em-up with magic spellcasting
+Steam Page
+Post mortem
+Trailer </description>
     </item>
     
   </channel>

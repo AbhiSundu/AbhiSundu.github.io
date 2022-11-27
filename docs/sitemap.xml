@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://abhisundu.github.io/posts/psupostmortem/</loc>
+    <lastmod>2022-11-27T10:13:21-05:00</lastmod>
+  </url><url>
     <loc>https://abhisundu.github.io/posts/</loc>
     <lastmod>2022-11-19T11:52:50-05:00</lastmod>
   </url><url>
@@ -13,9 +16,6 @@
   </url><url>
     <loc>https://abhisundu.github.io/games/</loc>
     <lastmod>2022-11-19T11:29:34-05:00</lastmod>
-  </url><url>
-    <loc>https://abhisundu.github.io/posts/testpost/</loc>
-    <lastmod>2022-11-19T11:07:54-05:00</lastmod>
   </url><url>
     <loc>https://abhisundu.github.io/categories/</loc>
   </url><url>
