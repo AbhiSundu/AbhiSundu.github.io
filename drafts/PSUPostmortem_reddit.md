@@ -89,7 +89,7 @@ I don't want to be overly critical and say "my game is bad because it sold badly
 
 However, I underestimated how difficult it would be to balance the player's power curve in a "long-run" roguelike like this. This led to the game being boring for some players due to some builds completely trivializing what should have been a very challenging, engaging end-game. I have a newfound respect for all the expertly-tuned roguelikes that always feel satisfying, even when you 'break' them.
 
-I also think that, even at its best, my game is quite niche (see this [playtime chart](TODO insert playtime chart) for details). It's nice to see some players fall in love with the game, even if they're not in the majority.
+I also think that, even at its best, my game is quite niche (see this [playtime chart](https://i.imgur.com/wM37NMw.png) for details). It's nice to see some players fall in love with the game, even if they're not in the majority.
 
 I'm very thankful to the influencers who covered my game. It feels like my game sold better than it deserved thanks to the influencer traffic. I'm excited to keep improving; it feels like if I follow the same process but develop an even better game, I'll see significantly better results.
 

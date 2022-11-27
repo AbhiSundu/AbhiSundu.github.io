@@ -104,9 +104,9 @@ In general, I think I've done a really good job of slowly growing out my audienc
 
 ### Some players really love the game
 The median playtime fluctuates between 45-55 minutes, which is apparently below the average on steam. However, if we look at the following chart:
-<INSERT PLAYERTIME CHART>
+![playtime](https://i.imgur.com/wM37NMw.png)
 
-we can see that while most players seem to bounce off the game after 1-2 runs, there are a small group of players that seem *obsessed* with the game. I'm really happy that I could make a game that resonated this much with some players.
+we can see that while most players seem to bounce off the game after 1-2 runs, there are a small group of players that seem to *really love* the game. I'm really happy that I could make a game that resonated this much with some players.
 ### Miscellaneous things I'm proud of:
 * I'm really proud of how the [soundtrack](https://soundcloud.com/abhisundu/sets/putrid-shot-ultra-ost) came out. I'm not a professional composer or anything, but I've been composing on and off for the last 6 years and I think this game's OST is my best work so far.
 * After the 3 updates I made post-launch, I think the game is a great deal for 3 dollars. There's a solid amount of content for the money in version 1.4 with the different loadouts, challenge modes, and endless mode.
