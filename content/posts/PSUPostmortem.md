@@ -34,7 +34,7 @@ The subreddits I posted to were /r/WebGames, /r/IndieGames, /r/games (on indie s
 My main takeaways:
 
 1. Steam next fest had the best "bang for my buck", roughly 300 wishlists, zero effort on my part outside of 'signing' up for the festival.
-2. Reddit posts were hit or miss, medium-effort, and usually got me anywhere from 10-30 wishlists
+2. While reddit posts weren't amazing for wishlists, I got lots of feedback on the demo through reddit
 3. Crazygames was easy to submit to and got me ~50 wishlists
 
 My twitter had a very small following before this game's release (~150 followers). I had a couple decent tweets (150-200 likes) but those didn't seem to affect wishlists/sales in any noticeable way. Releasing the game did get me about 100 additional twitter followers, so that was neat.
