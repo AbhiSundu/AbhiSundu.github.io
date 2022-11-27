@@ -60,9 +60,11 @@ In a later patch, I nerfed some of these more egregious strategies, but the dama
 Some players even called out these broken strategies in demo feedback, but I wrote that off as those players just being particularly skilled, rather than recognizing how easy some of these strategies were to execute. In the future, I think I'll try to get more of my friends to playtest the game, and I'll keep an eye out for this type of feedback
 
 ### No amount of influencer traffic can out-market your game's quality
-If you look at my results, you might think "that's not too bad for a game without good marketing!". Then you see that I had multiple youtubers with 100k-500k subscribers cover the game and suddenly you're like: What happened? I think it's clear that my game just isn't that great.
+If you look at my results, you might think "that's not too bad for a game without good marketing!". Then you see that I had multiple youtubers with 100k-500k subscribers cover the game and suddenly you're like: What happened? I think it's clear that my game just doesn't stand out among the crowd. I also think the balance issues mentioned earlier contibuted to youtubers liking the game less.
 
-My game had far more chances to succeed than it probably deserved. It feels like I wasted an opportunity that could have been better-used by a much better game. I won't vent about this too much more, I just want to say: Imagine if I had made a better game! With the amount of influencer traffic I received, it could have rocketed my game to the moon if my game were better.
+The game's art was also quite simple, which could be why discovery queue visits didn't convert into sales as well (I saw a couple comments on youtube talking about how ugly the game looked). I stand by the game's art style, but I acknowledge that it's polarizing.
+
+It does feel humbling to have this much influencer traffic and see such tepid results. I won't vent about this too much more, I just want to say: Imagine if I had made a better game! With the amount of influencer traffic I received, it may have rocketed my game to the moon if my game were better.
 
 ## What went well
 ### Pre-release process
@@ -78,20 +80,20 @@ This is the same high-value low-effort process that other, more successful solo 
 Making a commercial game on steam really forces you to implement all those "must-have" QoL features that players come to expect in a commercial game (remappable controls, rich options menu, save/load, achievements, steam cloud, etc). I now have a bunch of re-usable modules for all of the above and more in my "engine" wrapped around Love2D.
 
 This is the 4th game I've shipped with the Love2D framework and I really love it so far. I think I'll continue to use it for all future 2D projects (though I've been eyeing Godot for 3D recently).
-### Other tools I used that I love using
+### Other tools I used that I recommend
 * [Tiled Map editor](https://www.mapeditor.org/)
 * [LMMS for music](https://lmms.io/)
 * [luasteam for steam API](https://luasteam.readthedocs.io/en/stable/)
 * [aseprite for all sprites / animations](https://www.aseprite.org/)
 
 ## Closing thoughts
-I don't want to be overly critical and say "my game is bad because it sold badly": I wouldn't have released my game if I thought it was bad. I think PUTRID SHOT ULTRA is a solid game. Given the right loadout, the game is really fun.
+I don't want to be overly critical and say "my game is bad because it sold badly": I wouldn't have released my game if I thought it was bad. I think PUTRID SHOT ULTRA is a good game. And after the updates I made, I think the remaining players really like it.
 
 However, I underestimated how difficult it would be to balance the player's power curve in a "long-run" roguelike like this. This led to the game being boring for some players due to some builds completely trivializing what should have been a very challenging, engaging end-game. I have a newfound respect for all the expertly-tuned roguelikes that always feel satisfying, even when you 'break' them.
 
-I also think that, even at its best, my game is quite niche (see this [playtime chart](https://i.imgur.com/wM37NMw.png) for details). It's nice to see some players fall in love with the game, even if they're not in the majority.
+I also think that, even at its best, my game is pretty niche (see this [playtime chart](https://i.imgur.com/wM37NMw.png) for details). That said, it's nice to see some players fall in love with the game, even if they're not in the majority. I think I saw a few players in the steam reviews clock upwards of 15 hours, which is really cool to see.
 
-I'm very thankful to the influencers who covered my game. It feels like my game sold better than it deserved thanks to the influencer traffic. I'm excited to keep improving; it feels like if I follow the same process but develop an even better game, I'll see significantly better results.
+I'm very thankful to the influencers who covered my game. It feels like my game sold a bit better than it deserved thanks to the influencer traffic! I'm excited to keep improving; it feels like if I follow the same process but develop an even better game, I may see significantly better results.
 
 My game is far from perfect, but I'm proud of what I've made. I'm happy to answer any questions you all have.
 
