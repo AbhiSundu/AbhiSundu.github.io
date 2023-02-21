@@ -1,0 +1,17 @@
+commands
+To rebuild the site, run
+> hugo
+
+To run the local version of the site
+> hugo server
+
+To create a new post
+hugo new posts/my-post.md
+
+this creates something in the content directory, i.e content/posts/my-post.md
+
+how to add new menu items
+update config.toml and add new menu items
+
+how to update the homepage
+update _index.md
