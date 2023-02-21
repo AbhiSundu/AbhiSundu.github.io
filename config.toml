@@ -9,16 +9,27 @@ copyright = "Copyright © 2022, Abhi Sundu, all rights reserved "
 [menu]
 
     [[menu.main]]
-        identifier = 'games'
-        name = 'games'
-        url = '/games/'
+        identifier = 'home'
+        name = 'home'
+        url = '/'
+        weight=1
+    [[menu.main]]
+        identifier = 'blog'
+        name = 'blog'
+        url = '/posts/'
+        weight=2
 
     [[menu.main]]
         identifier = 'AboutMe'
         name = 'about me'
         url = '/about-me/'
+        weight=3
 
     [[menu.main]]
-        identifier = 'blog'
-        name = 'blog'
-        url = '/posts/'
+        identifier = 'games'
+        name = 'games'
+        url = '/games/'
+        weight=4
+
+
+
