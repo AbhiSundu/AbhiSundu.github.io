@@ -9,6 +9,16 @@
     <copyright>Copyright © 2022, Abhi Sundu, all rights reserved </copyright>
     <lastBuildDate>Sat, 19 Nov 2022 11:52:50 -0500</lastBuildDate><atom:link href="https://abhisundu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>I spent 938 hours making games over the last 3.5 years</title>
+      <link>https://abhisundu.github.io/posts/timetracking/</link>
+      <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhisundu.github.io/posts/timetracking/</guid>
+      <description>Over the past three and a half years, I&amp;rsquo;ve spent 938 hours making different games. The games ranged from short projects taking only 20-30 hours to much longer projects taking upwards of 200 hours with many unfinished projects scattered in between.
+While some went unfinished, most of the projects ended up shipping in one way or another. In tracking my gamedev time, I learned how long it takes me to &amp;ldquo;make a thing&amp;rdquo;, what types of projects cause me to burn out, and how time tracking affects the way I work in general.</description>
+    </item>
+    
+    <item>
       <title>Results from my first Steam Game: PUTRID SHOT ULTRA Postmortem</title>
       <link>https://abhisundu.github.io/posts/psupostmortem/</link>
       <pubDate>Sun, 27 Nov 2022 10:13:21 -0500</pubDate>

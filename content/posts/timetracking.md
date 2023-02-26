@@ -1,6 +1,6 @@
 ---
-title: "I tracked every minute I spent on gamedev for 3.5 years"
-date: 2023-02-21T18:10:11-05:00
+title: "I spent 938 hours making games over the last 3.5 years"
+date: 2023-02-26
 draft: false
 ---
 Over the past three and a half years, I've spent 938 hours making different games. The games ranged from short projects taking only 20-30 hours to much longer projects taking upwards of 200 hours with many unfinished projects scattered in between.
@@ -35,7 +35,7 @@ In the near 1000 hours I've spent on gamedev in the past 3.5 years, I've worked 
 {{<image src="/images/GameContent.png">}}
 {{<imageDescription text="Estimated Length is the time needed to almost 100% the game">}}
 
-Not a huge surprise here, the longer I spend on a game, the more content I can create. There aren't that many samples in the 100-200 hour range, so the graph could be a bit misleading there. However, I do think that the more time you invest in a game, the better the "rate of return" on content is, and I'll talk about that in the next sections.
+No surprises here. The longer I spend on a game, the more content I can create. There aren't that many samples in the 100-200 hour range, so the graph could be a bit misleading there. However, I do think that the more time you invest in a game, the better the "rate of return" on content is, and I'll talk about that in the next sections.
 
 You'll also notice that the games I make tend to fall into one of three buckets:
 - Short projects (20-50 hours)
@@ -50,11 +50,11 @@ These were usually [PICO-8](https://www.lexaloffle.com/pico-8.php) games. The PI
 {{<image src="/images/cardsOfTheBog.gif">}}
 {{<imageDescription text="\"Cards of the Bog\" took only 36 hours to make">}}
 
-To be honest, these games probably had the best "fulfillment-to-effort" ratio. I'd spend between 1-3 weeks on a simple idea, expand on it as much as I could in that time, and then ship a game. Each of these games got thousands of plays on itch.io, despite only taking a few weeks to make. I rarely got sick of working on these games due to their short development cycle.
+These games probably had the best "fulfillment-to-effort" ratio. I'd spend between 1-3 weeks on a simple idea, expand on it as much as I could in that time, and then ship a game. Each of these games got thousands of plays on itch.io, despite only taking a few weeks to make. I rarely got sick of working on these games due to their short development cycle.
 
 And if I ever got sick of one of these games, I felt comfortable shelving the project indefinitely due to the lack of a sunk cost.
 
-The only problem with this category of games is that their "effort-to-content" ratio is lower than other categories. This is because it often takes me at least 5-10 hours to set up the core systems of a game.
+The only problem with this category of games is that their "content-to-effort" ratio is lower than other categories. This is because it often takes me at least 5-10 hours to set up the core systems of a game.
 
 Given that this initial startup cost gets paid no matter the length of game I'm working on, spending only an additional 10-20 hours actually creating content can feel a little wasteful.
 
@@ -83,11 +83,11 @@ For me, these are the real soulsuckers of hobbyist gamedev. The ones I wish I'd 
 {{<imageDescription text="I spent over a year on \"Dreams of D4RK\". I started time tracking in the middle of development and never finished the game">}}
 
 {{<image src="/images/oneshotdog.gif">}}
-{{<imageDescription text="I spent 150 hours on this twinstick shooter, implementing roguelike mechanics, branching dialogue trees, and cutscenes. I gave up right before finishing the final boss">}}
+{{<imageDescription text="I spent 150 hours on this unfinished twinstick shooter, implementing roguelike mechanics, branching dialogue trees, and cutscenes. I gave up right before finishing the final boss">}}
 
 Quite a few of my games in this category are unfinished. I only finished the demo for Dreams of D4RK, and my twinstick shooter never saw the light of day. Jignon's Ascent only shipped because I realized I would never finish unless I gave myself a hard deadline and aggressively descoped.
 
-I think these projects are the most 'dangerous' to me as a hobbyist dev. I can really only spend around 1 hour per day on gamedev, so a 200 hour project can easily take me 6 months to a year to complete. This is a *long time* to spend on a single game, especially as one person. The allure of picking up a new technology or running with a new game idea is ever-present and tantalizingly strong when working on one of these projects.
+I think these projects are the most dangerous to me as a hobbyist dev. I can really only spend around 1 hour per day on gamedev, so a 200 hour project can easily take me 6 months to a year to complete. This is a *long time* to spend on a single game, especially as one person. The allure of picking up a new technology or running with a new game idea is ever-present and tantalizingly strong when working on one of these projects.
 
 That said, I'm happy that my [first commercial project](https://store.steampowered.com/app/2053360/PUTRID_SHOT_ULTRA/) was finished in only around 200 hours. That game's sold around 530 units so far, and continues to sell (albeit very slowly).
 
@@ -95,17 +95,17 @@ That said, I'm happy that my [first commercial project](https://store.steampower
 Unsurprisingly, low investment projects tend to be a lot less stressful. Shipping five 20 hour projects doesn't burn me out at all, while shipping (or worse, failing to ship) one 100 hour project destroys my motivation for months. I feel very vulnerable to the sunk cost fallacy, so I'd been avoiding longer projects for a while up until I made my commercial game. That said, I think I tend to push myself the most when it comes to longer, more feature-rich projects.
 
 ## Optimizing for "number of hours"
-When I start tracking something, I naturally start to optimize for it. I think this is common for many people (i.e calories are numbers, so many people naturally try to optimize that number one way or another).
+When I start tracking something as a number, I naturally start to optimize for it.
 
 When I started tracking gamedev time, I subconsiously started trying to optimize that number. This ended up being both good and bad for me.
 
 ### The good: Focus and efficiency
 Tracking my gamedev time has forced me to focus 100% of my energy on gamedev when the timer starts. I enter a "flow state" much faster now, and can make tons of progress in the 1-2 hours that I spend on it at a time.
 
-I no longer play a youtube video or a podcast in the background of gamedev. I focus all my energy on the current task and I feel really productive when I'm working on games.
+I no longer listen to youtube videos or podcasts in the background of gamedev. I focus all my energy on the current task and I feel really productive when I'm working on games.
 
 ### The bad: Cutting corners
-Since I'm trying to optimize the "time spent" number, I found myself cutting corners quite often, especially during my most recent commercial project. I reached a point where I realized making "good art" for the game would take too much time. Learning how to improve my art would also take too much time, so I simply made bad art for the game.
+Since I'm trying to optimize the "time spent" number, I found myself cutting corners quite often, especially during my most recent commercial project. I reached a point where I realized making "good art" for the game, or truly improving my art skills, would have taken too much time. So I simply made bad art for the game and covered it up with VFX and juice.
 
 {{<image src="/images/putridshot.gif">}}
 {{<imageDescription text="The game has decent juice, but I think I could have done better art-wise">}}
@@ -113,15 +113,15 @@ Since I'm trying to optimize the "time spent" number, I found myself cutting cor
 I caught myself doing the same on my current project. I want to improve my art, but started off half-assing the art with the intention of maximizing my "content-per-hour" ratio so I could make the game faster. Since then I've tried taking things slower.
 
 # Conclusion
-Nowadays, I still track the time I spend on gamedev because I like knowing how long it takes me to make a game. If I know that I'll have a free schedule for 2 weeks, I can "budget" time for a quick pico 8 game because I know that it'll only take me 20-30 hours of work.
+I still track the time I spend on gamedev because I like knowing how long it takes me to make a game. If I know that I'll have a free schedule for 2 weeks, I can "budget" time for a quick pico 8 game because I know that it'll only take me 20-30 hours of work.
 
-This has made it really easy to confidently explore weird ideas knowing that I won't get caught in some multi-month long sunk cost. This is also why I shipped so many games in 2022.
+This has made it really easy to confidently explore weird ideas knowing that I won't get caught in some multi-month-long sunk cost. This is also why I shipped so many games in 2022.
 
-I'm also able to catch myself before diving into an insane multi month project because I can look at my time spent, compare it to the time spent for other projects, and make a well-educated guess on how much longer it will take to finish.
+I'm also able to catch myself before diving into an insanely deep project because I can look at my time spent, compare it to the time spent for other projects, and make a well-educated guess on how much longer it will take to finish.
 
 However, I've been trying to catch myself "optimizing", to make sure I'm not intentionally creating subpar content just for the sake of maximizing my "content-per-hour" ratio. It's a lot harder to commit to learning a new skill while making a game if you're watching a timer tick up with every minute you spend fumbling around with this new skill. For that reason, I've been trying to be more detached with my time tracking.
 
-All that said, I highly recommend tracking the time you spend on projects. Not for efficiency or productivity, but just to help you understand how long it takes for you to make something you like. If nothing else, it feels really good to look back at how much time you spent doing something you love.
+All that said, I highly recommend tracking the time you spend on projects. Not for efficiency or productivity, but just to help you understand how long it takes to make something you like. If nothing else, it feels really good to look back at how much time you've spent doing something you love.
 
 **-------------------------------------**
 
