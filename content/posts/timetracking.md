@@ -1,16 +1,18 @@
 ---
 title: "I tracked every minute I spent on gamedev for 3.5 years"
 date: 2023-02-21T18:10:11-05:00
-draft: true
+draft: false
 ---
-Over the past 3 years, I've spent hours making different games. The games ranged from short projects taking only 20-30 hours to much longer projects taking upwards of 200 hours. Many of the projects did not see the light of day, but most of the projects ended up shipping in one way or another. In tracking this time, I learned how long it takes me to "make a thing", what types of project cause me to burn out, and how time tracking affects the way I work in general.
+Over the past 3 years, I've spent 938 hours making different games. The games ranged from short projects taking only 20-30 hours to much longer projects taking upwards of 200 hours. 
 
-**Insert pie chart of all gamedev done over the years**
+![938HoursOfGamedev](/images/HoursOfGamedev.png)
 
-**Insert a gif of a pico 8 game**
-**this game took me 25 hours to make**
+Many of the projects did not see the light of day, but most of the projects ended up shipping in one way or another. In tracking this time, I learned how long it takes me to "make a thing", what types of project cause me to burn out, and how time tracking affects the way I work in general.
 
-## Time Tracking as a Productivity Hack
+{{<image src="/images/oldenPeak.gif">}}
+{{<imageDescription text="My game \"Olden Peak\" took 27.5 hours to make">}}
+
+## Time Tracking as a Productivity Hack (TODO make this section way shorter)
 When I was a kid, I was obsessed with self-improvement and "life hacking". I'd mainline every ted talk, article, and lifehack reddit post I could get my little skeleton hands on, drinking in the fantasy of turning into the perfect version of myself.
 
 Nowadays, while I'm a bit more disillusioned to self-improvement as a genre, the world of "Time management self-help" is still one of my guilty pleasures.
@@ -29,31 +31,33 @@ Since then, my goal became to better-understand how long it takes me to actually
 ## Logistics
 I use an app called aTracker (disclaimer: I am not sponsored by this app). It has a free version that I used for the first year with good success but I've since upgraded to the paid version to avoid the ads. For every new gamedev project I start, I create a new "task" on the app.
 
-**Show atracker UI**
+{{<image src="/images/atrackerUI.png">}}
 
-Whenever I'm about to work on the project, I tap the project to start the timer and stop the timer when I stop working. When I'm finshed with a project, I archive the task on the app. The app keeps track of the total time spent on each task, so with the above workflow I can measure how long it takes me to "make a thing".
+Whenever I'm about to work on the project, I tap the project to start the timer and stop the timer when I stop working. When I'm finshed with a project, I archive the task on the app. The app keeps track of the total time spent on each task, so with the above workflow I can measure how long it takes me to "make a thing".'
+
+{{<image src="/images/atrackerUIFull.png">}}
+{{<imageDescription text="I track time for a variety of personal tasks as well which I've crossed out for privacy reasons">}}
 
 ## How long does it take me to make a thing?
-To start, let's look at some overall data:
+I spent 938 hours on gamedev in the past 3.5 years, ranging from tiny 1-2 week projects (~20-30 hours) to multi-month commercial ordeals. Since my goal was to better understand how long each "unit of content" takes for me to create, let's graph the amount of time spent on each game VS the amount of "content" in each game in terms of hours.
 
+{{<image src="/images/GameContent.png">}}
+{{<imageDescription text="Estimated Length is the time needed to almost 100% the game">}}
 
-**show graph of increasing time spent on gamedev for each game**
-I spent **INSERT AMOUNT** hours on gamedev in the past three years, ranging from tiny 1-2 week projects (~20-30 hours) to multi-month commercial ordeals. Since my goal was to better understand how long each "unit of content" takes for me to create, let's graph the amount of time spent on each game VS the amount of "content" in each game in terms of hours.
+Not a huge surprise here, the longer I spend on a game, the more content I can create. There aren't that many samples in the 100-200 hour range, so the graph could be a bit misleading there. However, I do think that the more time you invest in a game, the better the "rate of return" on content is, and I'll talk about that in the next sections.
 
-**show graph of hours spent (x axis) vs content in game (y axis)**
-
-Not a huge surprise here, the longer I spend on a game, the more content I can create. **TODO make some statement on the slope or curve**
-
-You'll notice that the games I make tend to fall into one of three buckets:
+You'll also notice that the games I make tend to fall into one of three buckets:
 - Short project (20-40 hours)
 - Medium project (50-90 hours)
 - Long project (150-200 hours)
 
 ## Short Projects (20-40 hours)
 These were usually PICO-8 games. The PICO-8 restriction model forces me to ship games roughly at the 30 hour mark unless I'm working overtime on music and story. PICO-8 prevents you from having more than 8192 symbols in your code (which translates to around 2000 lines of lua code), which usually takes me around 30 hours to write.
+{{<image src="/images/sh4de.gif">}}
+{{<imageDescription text="My game \"SH4DE\" took 48 hours to make and received 1800 plays">}}
 
-**List the 20-40 hour projects with links and time spent on each**
-**SH4DE, Cards of the bog, PUTRID S4NDs, Olden Peak, TRYH4RD jam version, Six Cards Under**
+{{<image src="/images/cardsOfTheBog.gif">}}
+{{<imageDescription text="\"Cards of the Bog\" took only 36 hours to make and received 3300 plays">}}
 
 To be honest, these games probably had the best "fulfillment-to-effort" ratio. I'd spend between 1-3 weeks on a simple idea, expand on it as much as I could in that time, and then ship a game. Each of these games got thousands of plays on itch.io, despite only taking a few weeks to make. I never once got sick of working on any of these games due to their short development cycle.
 
@@ -66,21 +70,28 @@ Given that this initial startup cost gets paid no matter what game you're workin
 ## Medium Projects (50-90 hours)
 These projects were more meaty games with multiple levels amd mechanics. I only made two of these games over the last few years.
 
-**List TRYH4RD conqueror edition and Planet D4RK**
+{{<image src="/images/planetd4rk.gif">}}
+{{<imageDescription text="\"Planet D4RK\" took 81 hours to make and received over 40000 plays on armorgames">}}
 
-I think this is the sweet spot for the "effort-to-content" ratio. O still pay the initial "game systems dev" startup cost, but I'm able to spend more time squeezing each drop of content out of the idea.
+{{<image src="/images/tryh4rd.gif">}}
+{{<imageDescription text="The full version of \"TRYH4RD\" took 72 hours to make and received over 40000 plays on armorgames">}}
 
-For example, TRYH4RD is included in both this category and the previous, because the jam version only took 45 hours and featured only 3 bosses. However, feeling that there was more to explore with the mechanics, I spent another 30 hours adding new bosses and attack patterns on the existing systems.
+I think this is the sweet spot for the "effort-to-content" ratio. I still pay the initial "game systems dev" startup cost, but I'm able to spend more time squeezing each drop of content out of the idea.
+
+For example, the original jam version of TRYH4RD only took and featured only 3 bosses. However, feeling that there was more to explore with the mechanics, I spent another 30 hours adding new remixes of the bosses and attack patterns on the existing systems.
 
 Since I'd already written the core combat, I could spend these 30 hours really fleshing out crazy attack patterns that fans really loved.
 
 ## Long Projects (150+ hours)
 These are the "soulsuckers" of hobbyist gamedev. The ones you wish you'd never started; The ones you want to quit if not for their sunk costs; The ones where you don't care about how well they're received, because you're just happy that you shipped.
 
-**List the 150 hour projects**
-**Dreams of D4RK, Jingnon's ascent, One Shot Dog, PUTRID SHOT ULTRA**
+{{<image src="/images/jingnon.gif">}}
+{{<imageDescription text="I made \"Jingnon's Ascent\" one before I started time tracking, it took well over a year to finish">}}
 
-One thing you may notice from this is half of these projects are unfinished. I only finished the demo for Dreams of D4Rk, and One Shot Dog never saw the light of day. Jignon's ascent only shipped because I realized I would never finish unless I gave myself a hard deadline.
+{{<image src="/images/dreamsofd4rk.gif">}}
+{{<imageDescription text="I spent over a year on \"Dreams of D4RK\". I started time tracking in the middle of development and never finished">}}
+
+One thing you may notice from this is that two out of the three games on this list are unfinished. I only finished the demo for Dreams of D4Rk, and my twinstick never saw the light of day. Jignon's Ascent only shipped because I realized I would never finish unless I gave myself a hard deadline.
 
 I think these projects are the most 'dangerous' to me as a hobbyist dev. I can really only spend around 1 hour per day on gamedev, so a 200 hour project can easily take me 6 months to a year to complete. This is a *long time* to spend on a single game, especially as one person. The allure of picking up a new technology or running with a new game idea is ever-present and tantalizingly strong.
 
