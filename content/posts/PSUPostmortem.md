@@ -6,11 +6,11 @@ draft: false
 I released my first commercial steam game, [PUTRID SHOT ULTRA](https://store.steampowered.com/app/2053360/PUTRID_SHOT_ULTRA/), on November 7 2022. I spent 6 months working on this game in my free time for a total of about ~200 hours of work. In this post, I'll discuss the results of my game, my process, and some analysis on why my game performed the way it did.
 ## Summary of Results
 My game sold 285 copies in 3 weeks following its release.
-![results](https://i.imgur.com/XretR2j.png)
+![results](/images/PSUSales.png)
 
 First 3 weeks of sales:
 
-![sales_graph](https://i.imgur.com/KGntyWN.png)
+![sales_graph](/images/PSUSalesTraffic.png)
 
 The initial sales spike comes from wishlist conversion. From there, the game hit 10 reviews by day 3 of the release (I had 4 friends write reviews and received 6 "organic" reviews very early on). I saw a massive spike in Discovery Queue traffic after hitting 10 reviews (from ~2000 visits to 15000 visits per day). I did not notice a spike in sales due to the discovery queue traffic.
 
@@ -27,7 +27,7 @@ The game launched with around 620 wishlists (I'll discuss this in the next secti
 ## Pre-release marketing
 I released my steam page on June 20, 2022, meaning I had around 4-5 months to build wishlists.
 Here's my wishlist graph annotated with each of my marketing activities:
-![wishlistgraph](https://i.imgur.com/1fZA4GV.png)
+![wishlistgraph](/images/PSUWishlistGraph.png)
 
 The subreddits I posted to were /r/WebGames, /r/IndieGames, /r/games (on indie sunday), /r/love2d, and /r/playmygame.
 
@@ -41,7 +41,7 @@ My twitter had a very small following before this game's release (~150 followers
 
 My steam capsule was done by the amazing [Guilherme Holz](https://www.artstation.com/gholz). He has some good steam capsule experience and was really easy to work with.
 ## Post-release marketing
-I emailed around 20 youtubers with free steam keys to the game. [Here's the email template I used.](https://i.imgur.com/3jgEIhW.png)
+I emailed around 20 youtubers with free steam keys to the game. [Here's the email template I used.](/images/PSUEmailTemplate.png)
 I created the list of youtubers to email using the strategies outlined in [this video](https://www.youtube.com/watch?v=ukw_vTFjSDo). As an aside, I highly recommend [Aurodev's](https://www.youtube.com/@AuroDev) channel, I followed a lot of his tips for setting up my steam page, creating builds in steamworks, coming up with an influencer email template etc.
 
 I didn't have the time nor patience to set up an official presskit, so I just created an ["unofficial" presskit](https://imgur.com/a/prv0qRh) on imgur with relevant artwork. This seemed sufficient for all the influencers that eventually made videos of the game.
@@ -104,7 +104,7 @@ With this steam release, I was still quite anxious on release day but the anxiet
 In general, I think I've done a really good job of slowly growing out my audience and scope over the past two years, and this commercial game is a nice capstone to my progress.
 ### Some players really love the game
 The median playtime fluctuates between 45-55 minutes, which is apparently below the average on steam. However, if we look at the following chart:
-![playtime](https://i.imgur.com/wM37NMw.png)
+![playtime](/images/PSUPlaytime.png)
 
 we can see that while most players seem to bounce off the game after 1-2 runs, there are a small group of players that seem to *really love* the game. I'm really happy that I could make a game that resonated this much with some players.
 ### Miscellaneous things I'm proud of:

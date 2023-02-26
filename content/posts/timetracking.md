@@ -1,5 +1,5 @@
 ---
-title: "I tracked every minute I spent on gamedev for 3 years"
+title: "I tracked every minute I spent on gamedev for 3.5 years"
 date: 2023-02-21T18:10:11-05:00
 draft: true
 ---
