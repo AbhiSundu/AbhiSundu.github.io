@@ -9,6 +9,17 @@
     <copyright>Copyright © 2022, Abhi Sundu, all rights reserved </copyright>
     <lastBuildDate>Sat, 19 Nov 2022 11:52:50 -0500</lastBuildDate><atom:link href="https://abhisundu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Gamedev, Monetization, and Lottery Tickets</title>
+      <link>https://abhisundu.github.io/posts/gamedevlottery/</link>
+      <pubDate>Sun, 07 May 2023 10:27:04 -0400</pubDate>
+      
+      <guid>https://abhisundu.github.io/posts/gamedevlottery/</guid>
+      <description>Ever since I released my first commercial game, the temptation to monetize my most fun hobby has been violently oscillating. I wrote a little bit about this in my post-mortem for my game Six Cards Under, a previously-paid-but-free-now game I released back in October.
+Sometimes I feel like commercial gamedev is my own personal lottery ticket.
+If I try enough, I&amp;rsquo;ll eventually win, right? My first commercial game has sold about 600 units so far on Steam since its release in November, for a total of around 1500 dollars.</description>
+    </item>
+    
+    <item>
       <title>I spent 938 hours making games over the last 3.5 years</title>
       <link>https://abhisundu.github.io/posts/timetracking/</link>
       <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
