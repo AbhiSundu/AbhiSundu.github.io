@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>In Defense of Blood Vials: &#39;Eat Your Vegetables&#39; game design - abhi sundu gamedev blog</title>
+
+    
+    
+    <meta name="description" content="People really hate farming blood vials
+This is a pretty common criticism of Bloodborne, especially since the healing system is so different from Dark Souls&rsquo;s renowned estus flask system. &ldquo;Why would the developers ever force the player to &ldquo;farm&rdquo; a healing item? This just makes me madder. I just want to keep fighting the boss!&rdquo;
+Take a break, kid &ldquo;Go take a break. You&rsquo;ve died to this guy like 30 times already, go do something else for a bit." />
+    <meta name="author" content="" />
+    
+
+    <link href="https://unpkg.com/@master/normal.css" rel="stylesheet">
+    <script src="https://unpkg.com/@master/style@1.5.0"></script>
+    <script src="https://unpkg.com/@master/styles@1.13.0"></script>
+    <script src="https://unpkg.com/master-styles-group"></script>
+    <script src="https://unpkg.com/themes.js"></script>
+    <script>window.themes = window.themes || new window.Themes()</script></head>
+<body class="bg:fade-84@dark font:fade-16@dark">
+    <nav class="w:full h:90 fixed bg:fade-84/.95@dark bg:white z:1000">
+    <div class="
+        h:full
+        w:full
+        max-w:1200
+        mx:auto
+        px:32
+        d:flex
+        align-items:center
+    ">
+        <div>
+            <a href="/" class="mr-3 font:extralight">abhi sundu gamedev blog</a>
+        </div>
+
+        <div class="ml:auto">
+            
+            
+            
+            
+            <a class="
+                font:semibold
+                font:fade
+                font:fade-10:hover
+                font:fade-30.active
+                px:8
+                transition:150ms;ease-in
+                
+            " href="/" title="">home</a>
+            
+            
+            <a class="
+                font:semibold
+                font:fade
+                font:fade-10:hover
+                font:fade-30.active
+                px:8
+                transition:150ms;ease-in
+                
+            " href="/posts/" title="">blog</a>
+            
+            
+            <a class="
+                font:semibold
+                font:fade
+                font:fade-10:hover
+                font:fade-30.active
+                px:8
+                transition:150ms;ease-in
+                
+            " href="/about-me/" title="">about me</a>
+            
+            
+            <a class="
+                font:semibold
+                font:fade
+                font:fade-10:hover
+                font:fade-30.active
+                px:8
+                transition:150ms;ease-in
+                
+            " href="/games/" title="">games</a>
+            
+        </div>
+    </div>
+</nav>
+<div class="d:flex flex:column@<=sm pt:90 px:24 jc:center gap:44 word-break:break-word">
+        <div class="max-w:700 w:full box:content-box">
+<article class="box:border-box pt:32">
+    <header class="mb:32">
+        <div class="font:40 font:extrabold">In Defense of Blood Vials: &#39;Eat Your Vegetables&#39; game design</div>
+        <div class="mt:16 f:fade-60">
+            <time>Jun 22, 2023</time>
+            </div>
+    </header><div class="
+    _:where(a):hover{text-decoration-color:fade}
+    _:where(a){text-decoration:2;underline;fade-10;_text-decoration-color:fade-70@dark}
+    _:where(blockquote){bl:5;solid;fade-76/.1;_bl:5;solid;fade-34/.1@dark}
+    _:where(code){font:90%;_v:middle}
+    _:where(code:not(.highlight_*,pre_*)){p:2;6;_r:4}
+    _:where(del){text-decoration:1;line-through;fade-68;_text-decoration-color:red-64@dark}
+    _:where(figcaption){text:14;_p:10;20;0;_width:fit;_mx:auto;_font:fade-56;_font:fade-57@dark}
+    _:where(h1){font:40;_font:extrabold}
+    _:where(h1,h2,h3)+:where(h1,h2,h3){mt:.5em}
+    _:where(h1,h2,h3,h4,h5,h6){mt:2em}
+    _:where(h2){mb:1em;_font:32}
+    _:where(h3){font:24}
+    _:where(h4){font:20}
+    _:where(h5){font:16}
+    _:where(h6){font:14}
+    _:where(li)::marker{font:fade-44;_font:fade-68@dark}
+    _:where(li){pl:.375em}
+    _:where(mark){text-decoration:1;underline;#fce016;_bg:transparent;_text-decoration-color:rgb(252;224;22/.5)@dark}
+    _:where(p,li){font:fade-76;_font:16;_line-height:1.65;_font:fade-34@dark}
+    _:where(p,pre,blockquote,figure,ul,ol,table){my:1.125em}
+    >:first-child{mt:0!}
+    _:where(pre){p:20;_r:8;_overflow:auto}
+    _:where(pre,code:not(.highlight_*)){bg:fade-2;_bg:fade-92!@dark}
+    _:where(strong,b,a,code:not(.highlight_*),mark,del){font:fade-92;_font:fade-12@dark}
+    _:where(table){width:full;_border-spacing:0}
+    _:where(td){v:baseline}
+    _:where(td,th):first-child{pl:0}
+    _:where(td,th):last-child{pr:0}
+    _:where(td,th){bb:1;solid;fade-92/.06;_p:6;_b:fade-4/.04@dark}
+    _:where(th){font:fade-78;_font:14;_text:left;_font:fade-12@dark}
+    _:where(th,p_code,li_code,a,mark){font:semibold;_font:medium@dark}
+    _:where(ul){list-style-type:disc}
+    _:where(ul,ol,blockquote){pl:1.5em}
+    _:where(video,img){max-width:full}
+    _:where(a,mark){text-underline-offset:3}
+"><p><img src="/images/bloodVialsTweets.png" style="display: block; margin-left: auto; margin-right: auto;">
+<p style="text-align: center;"><i>People really hate farming blood vials</i></p></p>
+<p>This is a pretty common criticism of Bloodborne, especially since the healing system is so different from Dark Souls&rsquo;s renowned estus flask system. &ldquo;Why would the developers ever force the player to &ldquo;farm&rdquo; a healing item? This just makes me madder. I just want to keep fighting the boss!&rdquo;</p>
+<h2 id="take-a-break-kid">Take a break, kid</h2>
+<p>&ldquo;Go take a break. You&rsquo;ve died to this guy like 30 times already, go do something else for a bit.&rdquo;</p>
+<p>This is what Bloodborne is telling the player with its blood vial system. If you&rsquo;ve died to a boss so many times that you&rsquo;re out of blood vials, then you probably need to go do something else.</p>
+<p>But wait, what if it&rsquo;s early in the game? You don&rsquo;t have that many vials to begin with, so why make me grind?
+But wait, what if it&rsquo;s late in the game? You seriously think I don&rsquo;t know what I&rsquo;m doing? Let me keep fighting the boss, I&rsquo;ll have you know I&rsquo;m a <em>souls veteran</em>&hellip;</p>
+<h3 id="early-game-go-learn-something">Early game: Go learn something</h3>
+<p><img src="/images/clericbeast.jpg" style="display: block; margin-left: auto; margin-right: auto;">
+<p style="text-align: center;"><i>Image source: https://bloodborne.wiki.fextralife.com/Cleric&#43;Beast</i></p></p>
+<p>It&rsquo;s the early game: You only start with 20 vials. Oh no, you died to the Cleric Beast! That&rsquo;s 20 vials down the drain. Go farm some vials and practice the combat. You know who always drops 2-3 blood vials? The big boys. Go kill a bunch of them.</p>
+<p>What&rsquo;s that? They&rsquo;re hard for you to kill at this level? Good. Keep fighting them. Don&rsquo;t come back till you&rsquo;ve killed 20 of them. Learn to dodge, learn to parry, learn the mechanics of your trick weapon, and <em>then</em> come back to Father Gascoine.</p>
+<h3 id="late-game-take-a-breather">Late game: Take a breather</h3>
+<p>I get it, Orphan of Kos is hard. But you&rsquo;re tilted, I can tell. You&rsquo;ve died to that stupid four hit stunlock combo like 30 times already, go do something else. Do a chalice dungeon or something. Beat up one of those procedurally generated bosses (&ldquo;The Watchdog of Anus&rdquo; or whatever its called).</p>
+<p>Come back tomorrow. You&rsquo;ll beat it on your second try, I promise.</p>
+<h2 id="eat-your-vegetables-game-design">&ldquo;Eat your Vegetables&rdquo; game design</h2>
+<blockquote>
+<p><em>One of the responsibilities of designers is to protect the player from themselves</em></p>
+</blockquote>
+<p>-Sid Meier and Soren Johnson, designers of the Civilization series</p>
+<p>An example: The game &ldquo;Transistor&rdquo; previously had a system that discouraged players from using the same abilities for the whole game. Amir Rao from Supergiant games calls this &ldquo;Eat your Vegetables&rdquo; game design:</p>
+<blockquote>
+<p><em>Previously, I said we were trying to discourage players from sitting on the same powers all game long and denying themselves a deeper and more varied experience. That sentiment came from a very &rsquo;eat your vegetables&rsquo; school of game design that I think many developers can be prone to. You see a relatively natural path-of-least-resistance sort of behavior in your players that you want to discourage, so you try to design all the ways in which it will be thwarted.&quot;</em>
+<a href="https://www.gamedeveloper.com/design/game-design-deep-dive-the-functions-of-i-transistor-i-">(source)</a></p>
+</blockquote>
+<p>In Transistor, &ldquo;Eat your vegetables&rdquo; meant preventing easy, &rsquo;low-resistance&rsquo; strategies. In Bloodborne, it means keeping the player&rsquo;s mental game &lsquo;healthy&rsquo;.</p>
+<p>When Bloodborne takes the reigns away from the player and says &ldquo;take a break&rdquo;, it&rsquo;s almost like telling the player to &ldquo;eat your vegetables&rdquo;. Bloodborne&rsquo;s designers know that players who bash their heads against a boss for hours will get frustrated. In an attempt to prevent this frustration and give the player a more varied and <em>healthy</em> experience, they step in and say &ldquo;you&rsquo;ve had enough meat. It&rsquo;s time for some vegetables&rdquo;. You&rsquo;ve died 50 times, go do something else.</p>
+<p>Ironically, it seems like this has had the opposite effect on many players. That said, this type of forced-pacing has actually been a staple of FromSoftware games since Demon&rsquo;s Souls, though players knew it by a different name back then:</p>
+<h3 id="the-boss-runback">The &ldquo;boss runback&rdquo;</h3>
+<p>Dying in a FromSoft game sends you back to the nearest checkpoint. Dying to any boss in Demon&rsquo;s Souls up to Dark Souls 3 usually meant returning to the start of the entire level and running all the way back to the boss (taking any shortcuts you may have found).</p>
+<p>The runback existed not just to reward players for exploring the level and finding shortcuts, but also to introduce a moment of reflection to the player. While running back to the boss, you&rsquo;re no longer actively &ldquo;in combat&rdquo;. Instead, you&rsquo;re auto-piloting through the level, still mentally chewing on your most recent death. I find that I come up with the best strategies during these runbacks. &ldquo;I should probably roll towards the boss during <em>that</em> attack. I can only get in 2 hits after that other attack&rdquo; etc.</p>
+<p>At the very least, it introduces a gap in the pacing of a boss battle. An tough fight coupled with a tragic death makes my heart race. Having that small gap in-between the end of a fight and the start of the next attempt is a good &lsquo;mental reset&rsquo; for me.</p>
+<p><img src="/images/stakeOfMarika.jpg" style="display: block; margin-left: auto; margin-right: auto;">
+<p style="text-align: center;"><i>Image source: https://eldenring.wiki.fextralife.com/Stakes&#43;of&#43;Marika</i></p></p>
+<p>In contrast, Elden Ring has &ldquo;stakes of marika&rdquo; that respawn you right outside the boss door. This almost feels like giving up on Fromsoft&rsquo;s part: &ldquo;We get it, you hate the runback. You hate your vegetables. Fine, here&rsquo;s your ice cream, go nuts.&rdquo;.</p>
+<h2 id="bloodbornes-intent-is-clear">Bloodborne&rsquo;s intent is clear</h2>
+<p>The designers are no fools. They knew they could have re-used the Estus system just fine, and no one would have complained. But making the blood vial system was a calculated gamble to see if they could alleviate some frustration by motivating practice and exploration after repeated deaths. I think this experiment was a huge success.</p>
+<p>Don&rsquo;t believe me? This is basically Elden Ring.</p>
+<p>In Elden Ring, if you die over and over again to a boss, you&rsquo;re motivated to leave and explore, only to return when you&rsquo;re stronger. The core of this motivation is the same as Bloodborne&rsquo;s: Take a breather, go explore and practice, and come back when you&rsquo;re ready.</p>
+<p>The main difference is that in Elden Ring, the player is more <em>intrinsically</em> motivated to explore. &ldquo;Damn, this guy killed me in 2 hits. I&rsquo;m probably underleveled. I wonder what&rsquo;s south of the bridge over there&hellip;&rdquo;. Whereas, in Bloodborne, the game was <em>extrinsically</em> motivating the player, saying &ldquo;You literally cannot fight this boss again, go do something else&rdquo;.</p>
+<p>The sentiment is the same, but the source is different. In the end, I think that&rsquo;s where the frustration with blood vials comes from. In Elden Ring, it feels like <em>your</em> idea to go explore. In Bloodborne, it&rsquo;s Miyazaki putting a plate of greens down and saying &ldquo;eat&rdquo;.</p>
+<p><strong>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-</strong></p>
+<p>Not sure if I&rsquo;ll do more &ldquo;design&rdquo;-related articles, but this one was fun to write. It feels cool and taboo to have a contrarian take for once lmao. Anyway if you like this stuff and want to be notified when I make a new post, consider signing up for my <a href="https://mailchi.mp/fe0667f0520b/abhi-sundus-mailing-list">mailing list</a>.</p>
+</div></article>
+<footer class="py:24">
+    <div class="f:fade-30 f:14 mb:8">© 2022 Abhi Sundu</div>
+    <div class="f:fade-60 f:12">Theme <a class="f:bold" href="https://github.com/serkodev/holy" _target="_blank">Holy</a></div>
+</footer></div>
+    </div>
+    
+</body>
+
+</html>

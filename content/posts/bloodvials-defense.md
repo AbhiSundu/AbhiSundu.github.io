@@ -1,14 +1,15 @@
 ---
-title: "In Defense of Blood Vials: 'Eat Your Vegetables' game design and forced-pacing"
-date: 2023-06-21
-draft: true
+title: "In Defense of Blood Vials: 'Eat Your Vegetables' game design"
+date: 2023-06-22
+draft: false
 ---
 
-(insert tweets and reddit comments on the blood vial system)
+{{<image src="/images/bloodVialsTweets.png">}}
+{{<imageDescription text="People really hate farming blood vials">}}
 
 This is a pretty common criticism of Bloodborne, especially since the healing system is so different from Dark Souls's renowned estus flask system. "Why would the developers ever force the player to "farm" a healing item? This just makes me madder. I just want to keep fighting the boss!"
 
-### Take a break, kid
+## Take a break, kid
 "Go take a break. You've died to this guy like 30 times already, go do something else for a bit."
 
 This is what Bloodborne is telling the player with its blood vial system. If you've died to a boss so many times that you're out of blood vials, then you probably need to go do something else.
@@ -17,16 +18,13 @@ But wait, what if it's early in the game? You don't have that many vials to begi
 But wait, what if it's late in the game? You seriously think I don't know what I'm doing? Let me keep fighting the boss, I'll have you know I'm a *souls veteran*...
 
 ### Early game: Go learn something
-(insert image of cleric beast)
+{{<image src="/images/clericbeast.jpg">}}
+{{<imageDescription text="Image source: https://bloodborne.wiki.fextralife.com/Cleric+Beast">}}
 
 It's the early game: You only start with 20 vials. Oh no, you died to the Cleric Beast! That's 20 vials down the drain. Go farm some vials and practice the combat. You know who always drops 2-3 blood vials? The big boys. Go kill a bunch of them.
 
-(insert image of big boy)
-
 What's that? They're hard for you to kill at this level? Good. Keep fighting them. Don't come back till you've killed 20 of them. Learn to dodge, learn to parry, learn the mechanics of your trick weapon, and *then* come back to Father Gascoine.
 ### Late game: Take a breather
-(insert image of orphan of kos)
-
 I get it, Orphan of Kos is hard. But you're tilted, I can tell. You've died to that stupid four hit stunlock combo like 30 times already, go do something else. Do a chalice dungeon or something. Beat up one of those procedurally generated bosses ("The Watchdog of Anus" or whatever its called).
 
 Come back tomorrow. You'll beat it on your second try, I promise.
@@ -43,19 +41,18 @@ An example: The game "Transistor" previously had a system that discouraged playe
 
 In Transistor, "Eat your vegetables" meant preventing easy, 'low-resistance' strategies. In Bloodborne, it means keeping the player's mental game 'healthy'.
 
-When Bloodborne takes the reigns away from the player and says "take a break", it's almost like telling the player to "eat your vegetables". Bloodborne's designers know that the players who bash their heads against a boss for hours will get frustrated. In an attempt to prevent this frustration and give the player a more varied and *healthy* experience, they step in and say "you've had enough meat. It's time for some vegetables". You've died 50 times, go do something else.
+When Bloodborne takes the reigns away from the player and says "take a break", it's almost like telling the player to "eat your vegetables". Bloodborne's designers know that players who bash their heads against a boss for hours will get frustrated. In an attempt to prevent this frustration and give the player a more varied and *healthy* experience, they step in and say "you've had enough meat. It's time for some vegetables". You've died 50 times, go do something else.
 
-This type of forced-pacing has actually been a staple of FromSoftware games since Demon's Souls, though players knew it by a different name back then:
+Ironically, it seems like this has had the opposite effect on many players. That said, this type of forced-pacing has actually been a staple of FromSoftware games since Demon's Souls, though players knew it by a different name back then:
 ### The "boss runback"
 Dying in a FromSoft game sends you back to the nearest checkpoint. Dying to any boss in Demon's Souls up to Dark Souls 3 usually meant returning to the start of the entire level and running all the way back to the boss (taking any shortcuts you may have found).
-
-(insert long boss runback in a souls game, maybe dark souls 3?)
 
 The runback existed not just to reward players for exploring the level and finding shortcuts, but also to introduce a moment of reflection to the player. While running back to the boss, you're no longer actively "in combat". Instead, you're auto-piloting through the level, still mentally chewing on your most recent death. I find that I come up with the best strategies during these runbacks. "I should probably roll towards the boss during *that* attack. I can only get in 2 hits after that other attack" etc.
 
 At the very least, it introduces a gap in the pacing of a boss battle. An tough fight coupled with a tragic death makes my heart race. Having that small gap in-between the end of a fight and the start of the next attempt is a good 'mental reset' for me.
 
-(Insert image of Elden Ring stake of marika, maybe outside a tough boss)
+{{<image src="/images/stakeOfMarika.jpg">}}
+{{<imageDescription text="Image source: https://eldenring.wiki.fextralife.com/Stakes+of+Marika">}}
 
 In contrast, Elden Ring has "stakes of marika" that respawn you right outside the boss door. This almost feels like giving up on Fromsoft's part: "We get it, you hate the runback. You hate your vegetables. Fine, here's your ice cream, go nuts.".
 ## Bloodborne's intent is clear
