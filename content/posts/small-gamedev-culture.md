@@ -25,18 +25,22 @@ The above cycle happens so often that I've taken to keeping a list of these post
 ["OP your game sucks, why did you think it would sell? (didn't play it)"](https://www.reddit.com/r/gamedev/comments/w59ltd/ive_never_worked_harder_for_200_in_my_life/ih7eqtr/)\
 ["Stop whining and start grinding! A wake up call!"](https://www.reddit.com/r/gamedev/comments/120pt4h/stop_whining_and_start_grinding_a_wakeup_call_for/)
 
-These posts happen every month (in fact, if you check "top of the month" in /r/gamedev, you'll probably find a post exactly like the above)
-### Sidebar: Why these arguments are wrong
+These posts happen every month (in fact, if you check "top of the month" in /r/gamedev, you'll probably find a post exactly like the above). /r/gamedev has so much (very angry) advice on how to make a good, marketable game!
+### Sidebar: Why these arguments usually are wrong
 In case you're also a non-gamedev wondering why the above arguments are stupid, here's a quick summary:
 - Making a good game is objectively hard. Studios with millions of dollars and hundreds of employees more talented than you regularly fail at this. Saying "Just make a good/marketable game" is completely useless advice.
-- It's very easy to become biased when looking at a game's results. If you see that a game didn't sell well, you'll probably do olympic-level mental gymnastics to come up with reasons why it deserved to fail, but failure is super overdetermined: Games fail for *tons* of reasons all coming together. The odds that you'd be able to pinpoint the exact reasons are very low.
+- It's very easy to become biased when looking at a game's results. If you see that a game didn't sell well, you'll probably do olympic-level mental gymnastics to come up with reasons why it deserved to fail, but failure is super overdetermined: Games fail for *tons* of reasons all coming together. The odds that there's a single reason it failed (and that you'd be able to pinpoint this reason) are very low.
 - If you could accurately guess how well a game would sell just by looking at it, you'd be a billionaire publisher.
+- Most games on steam fail, so simply saying "your game is going to fail" is just min/maxing the guessing game: it's not insightful for reason 2 above.
+- The majority of the people giving this advice on /r/gamedev have never shipped a game.
 
-So why do people make these arguments on /r/gamedev? They're, at best, useless and at worst, hurtful and harmful to devs. Why is /r/gamedev full of angry non-gamedevs telling other non-gamedevs how to do gamedev?
+So why do people make these arguments on /r/gamedev? They're, at best, useless and at worst, hurtful and harmful to devs.
+
+Why is /r/gamedev full of angry non-gamedevs telling other non-gamedevs how to do gamedev?
 
 To understand this, let's look at another similar creator space: Youtube.
 ## Why are youtubers so angry?
-Like gamedev, youtube is absolutely saturated with content. Many of it is low-effort content, but it's absolutely possible for a good video to get drowned out by the noise (at least for some time) until the algorithm catches up to this 'good' video's watch time and other metrics.
+Like gamedev, youtube is absolutely saturated with content. Much of it is low-effort content, but it's absolutely possible for a good video to get drowned out by the noise (at least for some time) until the algorithm catches up to this 'good' video's watch time and other metrics. We've all seen that video from 10 years ago that suddenly gets picked up by the algorithm.
 
 The takeaway is: Youtube is hard, it's saturated with talent, and people want to be good at it. So are small youtubers equally as angry? Absolutely.
 
@@ -70,28 +74,33 @@ What is the point of all of this useless advice? (Just make a good game! Just *d
 ## /r/gamedev hates itself
 This useless advice is a combination of venting and trying to stand out from the pack. "Yeah we all suck, but at least I *know* that I suck!".
 
-It's very difficult to become a successful indie dev. If it were easy, everyone would do it. This hurts though, doesn't it? Like, don't we all want our games to be enjoyed by tons of people? Don't we all want to escape capitalism and just make the cool art we want to make all day?
+It's very difficult to become a successful indie dev. If it were easy, everyone would do it. This hurts though, doesn't it? Like, don't we all want our games to be enjoyed by tons of people? Don't we all want to escape capitalism and just make the cool art all day?
 
 So, in light of this pain, this despair, the average /r/gamedev user chooses anger: "You all suck! Yeah I suck too! But since I'm the one saying it, I must be a bit better!".
 
-Basically, the sentiment is "sure I'm bad, but at least I'm not as bad as *you guys* because I *know* I'm bad". It's a desperate attempt to shield onesself from the emptiness and pain that comes with releasing a passion project to radio silence. By giving seemingly commonsense advice and avoiding actually publishing anything yourself, you can convince yourself that if you *did* ever take the plunge, you'd do better than everyone else.
+Basically, the sentiment is "sure I'm bad, but at least I'm not as bad as *you guys* because I *know* I'm bad". It's a desperate attempt to shield oneself from the emptiness and pain that comes with releasing a passion project to radio silence. By giving seemingly commonsense advice and avoiding actually publishing anything yourself, you can convince yourself that if you *did* ever take the plunge, you'd do better than everyone else.
 
 And if you fail? You can just say "I knew I'd fail, I know my game is shit because it didn't sell!" and boom: you've avoided all the pain while also distancing yourself from your fellow-failures.
 
 ## Relish the pain
-Back when I was in high school, my track coach had a go-to phrase he'd use when we were struggling with a tough workout: "Relish the pain"
+Back when I was in high school, my track coach had a phrase he'd use when we were struggling with a tough workout: "Relish the pain"
 
-/r/gamedev hates itself because it hates pain. It hates the pain of creativity. The pain of putting your blood into a project and watching it fail. It hates the idea that maybe Steam isn't 100% fair. It hates the pain of watching someone else pour their soul into their work and fail. It hates the idea that the world is chaotic and nondeterminstic. It longs for a world where you can boil down creativity into a few commonsense bullets. A world where there's *no way* you actually believed in yourself, right? You knew you'd fail, right?
+/r/gamedev hates itself because it hates pain. It hates the pain of creativity. The pain of putting your blood into a project and watching it fail. It hates the idea that maybe the world isn't 100% fair. It hates the pain of watching someone else pour their soul into their work and fail. It hates the idea that the world is chaotic and nondeterminstic. It longs for a world where you can boil down creativity into a few commonsense bullets. A world where there's *no way* you actually believed in yourself, right? You knew you'd fail, right?
 
 Relish it. Don't be self-aware about it. Don't pre-emptively call your work shit. Don't try to distance yourself from your peers, from your failures. Relish the pain. Relish the emptiness.
 
 You poured your soul into that game, right? And no one played it? It hurts. I know it does. Experience it, bathe in it, cloak your whole body in that pain. It's okay. It'll all be okay.
 
+
+-------------------------------------
+
 ### yee haw
-this was a weird post, I probably won't ever publish this. I don't think I conveyed my points as eloquently as I'd like to have done, but hey that's life lmao
+This was a weird post, I probably won't ever publish this. I don't think I conveyed my points as eloquently as I'd like to have done, but hey that's life lmao
 
-i usually hate this type of 'tough love' prose. the last section reminds me too much of those weird alt-right stoicism blogs, but whatever
+I usually hate this type of 'tough love' prose. The last section reminds me too much of those weird alt-right stoicism blogs, but whatever.
 
-my main point is just that /r/gamedev is hurting, and doesn't know what to do with that pain, so it lashes out at people that would dare to take a leap. By convincing themselves that gamedev is a deterministic game where failure is obvious and success is just a few 'htmag' articles away, they avoid this pain.
+Also my points don't really apply to post-mortems. I think post-mortems are the only real reason to follow /r/gamedev. My points mostly apply to the mountain of useless advice and criticism given by non-gamedevs on how to make good games on /r/gamedev.
 
-They do so without realizing that not experiencing this pain is telling on themselves (a real 'self report' as the kids say). If you haven't experienced this pain, you're probably not making things, so you're probably not worth listening to.
+Anyway, my main point is just that /r/gamedev is hurting, and doesn't know what to do with that pain, so it lashes out at people that would dare to take a leap. By convincing themselves that gamedev is a deterministic RPG where failure is obvious and success is just a few 'htmag' articles away, they avoid this pain.
+
+They do so without realizing that not experiencing this pain is telling on themselves (a real 'self report' as the kids say). If you haven't experienced this pain, then you're probably not making anything, so you're probably not worth listening to.
