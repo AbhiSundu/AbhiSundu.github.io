@@ -8,7 +8,7 @@ Games with 'tight' controls usually feature an assortment of hidden "assists" th
 ## Anticipating / Understanding Player Intent
 Using "coyote time" as an example: This assist understands that the player 'intended' to jump, even if they jumped too late. Realizing this intent means letting the player jump anyway. Another quick example would be Dead Cells automatically flipping the player if they attack the opposite direction of an enemy. Dead Cells understands that the player intended to hit that enemy, and corrects the mistake.
 
-## Forgiving Common Mistakes
+## Forgiving Common Mistakes 
 A lot of these assists fit into both this category and the above category. Using "coyote time" as an example again, the player made a common mistake: pressing jump a little bit too late after leaving a platform.
 
 Coyote time means forgiving the player for this mistake, and realizing their intention anyway.
