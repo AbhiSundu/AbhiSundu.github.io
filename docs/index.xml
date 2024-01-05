@@ -6,8 +6,18 @@
     <description>Recent content in awef on abhi sundu gamedev blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright © 2022, Abhi Sundu, all rights reserved </copyright>
+    <copyright>Copyright © 2022-2024, Abhi Sundu, all rights reserved </copyright>
     <lastBuildDate>Sat, 19 Nov 2022 11:34:48 -0500</lastBuildDate><atom:link href="https://abhisundu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Results one year after my first commercial game</title>
+      <link>https://abhisundu.github.io/posts/yearofpsu/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhisundu.github.io/posts/yearofpsu/</guid>
+      <description>I released Putrid Shot Ultra on Steam roughly one year ago, on November 7, 2022.
+Sales The game sold around 840 units on Steam in the ~1 year since its release. The game also has around 1800 outstanding wishlists. In the first month, the game sold around 300 units, so it&amp;rsquo;s definitely surpassed my expectations one year later. The sales graph for the game shows spikes during every Steam sale/discount after the release:</description>
+    </item>
+    
     <item>
       <title>How I get people to play my free games</title>
       <link>https://abhisundu.github.io/posts/marketing-free-games/</link>
