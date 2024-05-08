@@ -44,9 +44,11 @@ By 'relevant subreddit', I mean a subreddit that allows self-promotion and has s
 /r/WebGames is one of the few subreddits that allows self-promotion that's also good for traffic. This is because not that many people post games to /r/WebGames, and you actually need a playable browser link to post there. The subreddit is basically a quid-pro-quo: "I give you a free, no-download game, you give me traffic/plays". I've posted every one of my games to this sub with varying degrees of success.
 
 ### Note: On Self-promotion rules
-I think self promotion rules on reddit are generally "you can't post straight-up ads all the time". This is different from posting OC (original content). For example, posting a photo you took to /r/pics isn't self-promotion, it's OC. Similarly, posting a free browser game you made to /r/WebGames isn't self promotion, it's OC.
+I think self promotion rules on reddit are generally "you can't post straight-up ads all the time". This seems to be different from posting OC (original content). For example, posting a photo you took to /r/pics isn't self-promotion, it's OC. Similarly, posting a free browser game you made to /r/WebGames isn't self promotion, it's OC.
 
-Please don't spam random subreddits with links to your steam game. The above two reddit strategies have worked well for me with no bans or warnings, as they both comply with reddits rules.
+Please don't spam random subreddits with links to your steam game. The above reddit strategies have worked well for me with no bans or warnings, as they comply with reddits rules.
+
+*Post-Correction*: I read some more of reddit's rules, and it looks like posting *only* OC without engaging with the community is also considered spam. In my case, I usually comment on other people's posts because I like giving people feedback / asking questions. I recommend making sure that you actually participate in the communities you post your stuff in.
 
 ## Interlude: The above is the bare-minimum
 Doing steps 1-4 gets me at least 500 plays, usually around 2000 plays, and sometimes over 5000 plays. At the very least, doing the above gives you a strong chance at being put into the "New and Popular" tab on itch.io. Most people who release on itch don't have much external traffic driven to their game. If you do the above, you'll have at least a few hundred clicks coming from elsewhere, which is enough to propel you past like 80% of games in the 'new and popular' tab.
