@@ -1,0 +1,12 @@
+if you want to use git on your surface
+
+first: use your other github account AbhiSundu
+generate a token
+
+then do
+
+git remote set-url origin https://AbhiSundu:TOKEN@github.com/AbhiSundu/AbhiSundu.github.io.git
+
+where TOKEN is just the copy-paste of your fine grained token that you generate for this repo
+
+then do a git fetch, git pull, and you're set
