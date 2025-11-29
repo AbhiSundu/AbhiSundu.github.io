@@ -3,9 +3,9 @@ languageCode = 'en-us'
 title = 'abhi sundu gamedev blog'
 theme = "holy"
 publishDir = "docs"
-copyright = "Copyright © 2022-2024, Abhi Sundu, all rights reserved "
+copyright = "Copyright © 2022-2025, Abhi Sundu, all rights reserved "
 [params]
-    copyright = "© 2022-2024 Abhi Sundu"
+    copyright = "© 2022-2025 Abhi Sundu"
 [menu]
 
     [[menu.main]]

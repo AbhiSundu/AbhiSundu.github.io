@@ -33,7 +33,7 @@ The above shows the number of plays it received in the browser in the first mont
 
 ### Post the browser version of your game to itch
 
-Posting a browser game on itch can be enough to get at least a handful of people trying your game. Having an eye-catching thumbnail can do most of the work for you here. To see what I mean, just go to the "[new and popular](https://itch.io/games/new-and-popular)" tab on itch and look at the thumbanils there for inspiration.
+Posting a browser game on itch can be enough to get at least a handful of people trying your game. Having an eye-catching thumbnail can do most of the work for you here. To see what I mean, just go to the "[new and popular](https://itch.io/games/new-and-popular)" tab on itch and look at the thumbnails there for inspiration.
 
 From there, marketing the browser game involves posting to external communities:
 ### Post a gif of your game on 1 relevant subreddit
